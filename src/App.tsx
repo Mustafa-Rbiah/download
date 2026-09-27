@@ -515,7 +515,7 @@ export default function App() {
       {/* Footer */}
       <footer className="border-t border-slate-200/80 bg-white py-4 mt-12 text-center text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
-          <span>Gmail EML Downloader • Node.js IMAPflow (SSL:993)</span>
+          <span>Gmail EML Downloader • Node.js</span>
           <span className="font-mono text-[11px] text-slate-400">
             Created by: Mustafa Rbiah
           </span>
