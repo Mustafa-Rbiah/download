@@ -517,7 +517,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
           <span>Gmail EML Downloader • Node.js IMAPflow (SSL:993)</span>
           <span className="font-mono text-[11px] text-slate-400">
-            16-character App Password • RFC 2822 Extraction &amp; Zip Package
+            Created by: Mustafa Rbiah
           </span>
         </div>
       </footer>

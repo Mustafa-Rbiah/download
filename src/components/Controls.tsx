@@ -136,7 +136,7 @@ export const Controls: React.FC<ControlsProps> = ({
         <div>
           <h2 className="text-base font-bold text-slate-900 tracking-tight flex items-center gap-2">
             <Filter className="w-4 h-4 text-blue-600" />
-            Email Category &amp; Extraction Controls
+            Email Controls
           </h2>
           <p className="text-xs text-slate-500 mt-0.5">
             {hasAuth

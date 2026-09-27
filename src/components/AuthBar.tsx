@@ -77,15 +77,8 @@ export const AuthBar: React.FC<AuthBarProps> = ({
             </div>
             <div>
               <h1 className="text-base font-bold text-slate-900 tracking-tight flex items-center gap-2">
-                Gmail EML Downloader
-                <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 flex items-center gap-1">
-                  <ShieldCheck className="w-3 h-3" />
-                  IMAP SSL:993
-                </span>
+                Gmail Downloader     
               </h1>
-              <p className="text-xs text-slate-500 hidden sm:block">
-                Direct Node.js IMAP unread extraction, header formatting &amp; ZIP package
-              </p>
             </div>
           </div>
 
