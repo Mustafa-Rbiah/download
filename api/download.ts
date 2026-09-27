@@ -153,7 +153,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
       const catSlug = (category || 'mail').replace(/[^a-zA-Z0-9_-]/g, '_');
       const timestamp = new Date().toISOString().replace(/[:.]/g, '-').slice(0, 19);
-      const zipFilename = `gmail_backup_${catSlug}_${timestamp}.zip`;
+      const zipFilename = `gmail_Download_${catSlug}_${timestamp}.zip`;
 
       const zip = new JSZip();
       for (const item of processedItems) {
