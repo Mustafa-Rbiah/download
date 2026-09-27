@@ -1,0 +1,6 @@
+{
+  "name": "Gmail EML Batch Downloader",
+  "description": "Batch download raw unread email source files (.eml) by category with deduplication and zip export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
